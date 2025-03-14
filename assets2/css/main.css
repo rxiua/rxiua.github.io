@@ -53,10 +53,7 @@ section, summary, time, mark, audio, video {
 .menu dd.from:after {
     content: "〜";
 }
-.notes{
-    font-size: 0.7rem;
-    font-family:"Yu Mincho", "YuMincho";
-}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
