@@ -172,32 +172,6 @@ body {
   margin-bottom: 8px;
 }
 
-/* 点線 */
-.menu .item::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  z-index: -1;
-  width: 100%;
-  border-bottom: dotted 2px #aaa;
-}
-
-.menu .item .name,
-.menu .item .price {
-  display: inline-block;
-  /* 周りの背景色と同色にします */
-  background-color: #fff; 
-}
-
-.menu .item .name {
-  padding-right: 5px;
-}
-
-.menu .item .price {
-  padding-left: 5px;
-}
-
 /* BG */
 #bg {
   -moz-transition: opacity 2s ease-in-out;
