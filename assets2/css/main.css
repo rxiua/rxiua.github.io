@@ -23,6 +23,41 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+.menu{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1,125rem;
+    padding: 40px 0;
+}
+.menu dl {
+    display: table;
+    width: 100%;
+    border: solid #e4e4e4;
+    border-width: 1px 0;
+}
+.menu dt{
+    display: table-cell;
+    padding:0.4rem;
+}
+.menu dd{
+    text-align: right;
+    display: table-cell;
+    padding:0.4rem;
+}
+.menu dd:after{
+    display: inline-block;
+    content: "";
+    width: 1em;
+    font-size: 0.7em;
+}
+.menu dd.from:after {
+    content: "〜";
+}
+.notes{
+    font-size: 0.7rem;
+    font-family:"Yu Mincho", "YuMincho";
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
