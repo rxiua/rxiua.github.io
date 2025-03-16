@@ -32,7 +32,7 @@ section, summary, time, mark, audio, video {
  }
  .menu dl {
      display: table;
-     width: 100%;
+     width: 30%;
      border: solid #e4e4e4;
      border-width: 1px 0;
  }
@@ -47,7 +47,7 @@ section, summary, time, mark, audio, video {
      text-align: right;
      display: table-cell;
      padding:0.4rem;
-	  width: 30%;
+	  width: 20%;
   text-align: center;
  }
 
