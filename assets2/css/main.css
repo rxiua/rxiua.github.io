@@ -28,7 +28,7 @@ section, summary, time, mark, audio, video {
 .menu{
      max-width: 700px;
      margin: 0 auto;
-     font-size: 1.125rem;
+     font-size: 18px;
      padding: 10px 0;
  }
  .menu dl {
@@ -38,19 +38,23 @@ section, summary, time, mark, audio, video {
      border-width: 1px 0;
  }
  .menu dt{
-text-align: center;
-     display: table-cell;
-     padding:0.4rem;
+	width: 30%; 
+	text-align: center;
+	display: table-cell;
+	padding:0.4rem;
 }
 
 .menu dd{
-     text-align: right;
-     display: table-cell;
-     padding:0.4rem;
+	width: 35%;
+	text-align: right;
+	display: table-cell;
+	padding:0.4rem;
  }
 
 .menu dd:last-child {
-     content: "";
+	width: 15%;
+	text-align: right;
+	content: "";
 }
 
 .menu dd.from:after {
