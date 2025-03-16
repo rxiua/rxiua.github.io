@@ -289,25 +289,25 @@ html, body {
       min-height: 100%; } }
 
 /* Header */
-#header h1 {
+header h1 {
   font-size: 3.25em;
   margin: 0 0 0.55em 0; }
 
-#header p {
+header p {
   font-size: 1.35em;
   line-height: 1.65em; }
 
-#header a {
+header a {
   color: inherit; }
 
 @media screen and (max-width: 736px) {
-  #header h1 {
+  header h1 {
     font-size: 2em; }
-  #header p {
+  header p {
     font-size: 1em; } }
 
 @media screen and (max-width: 480px) {
-  #header {
+  header {
     margin: 0 0 1em 0; } }
 
 /* List */
