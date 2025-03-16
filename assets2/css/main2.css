@@ -28,7 +28,6 @@ section, summary, time, mark, audio, video {
 body {
     background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
     text-align: left;
     padding: 20px;
 }
