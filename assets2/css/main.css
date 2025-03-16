@@ -39,14 +39,14 @@ section, summary, time, mark, audio, video {
  }
  .menu dt{
 	width: 30%; 
-	text-align: center;
+	text-align: left;
 	display: table-cell;
 	padding:0.4rem;
 }
 
 .menu dd{
 	width: 35%;
-	text-align: right;
+	text-align: center;
 	display: table-cell;
 	padding:0.4rem;
  }
