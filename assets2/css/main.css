@@ -29,7 +29,7 @@ section, summary, time, mark, audio, video {
      max-width: 700px;
      margin: 0 auto;
      font-size: 1,125rem;
-     padding: 40px 0;
+     padding: 10px 0;
  }
  .menu dl {
      display: table;
