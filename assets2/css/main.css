@@ -44,6 +44,27 @@ section, summary, time, mark, audio, video {
   text-align: right;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+td:first-child {
+  width: 30%;
+  text-align: left;
+}
+
+td:last-child {
+  width: 20%;
+  text-align: right;
+}
+
+
 
 
 article, aside, details, figcaption, figure,
