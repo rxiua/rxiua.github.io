@@ -55,7 +55,7 @@ section, summary, time, mark, audio, video {
      width: 1em;
      font-size: 0.7em;
 
-.menu-item dd:last-child {
+.menu dd:last-child {
 	display: inline-block;
      content: "";
   width: 20%;
