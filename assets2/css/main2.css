@@ -249,3 +249,30 @@ hr {
   margin: 2em 0; }
   hr.major {
     margin: 3em 0; }
+
+/* Basic */
+@-ms-viewport {
+  width: device-width; }
+
+body {
+  -ms-overflow-style: scrollbar; }
+
+@media screen and (max-width: 480px) {
+  html, body {
+    min-width: 320px; } }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%; }
+  @media screen and (max-height: 640px) {
+    html, body {
+      height: auto;
+      min-height: 100%; } }
+
