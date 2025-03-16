@@ -36,8 +36,10 @@ section, summary, time, mark, audio, video {
      width: 100%;
      border: solid #e4e4e4;
      border-width: 1px 0;
+	 text-align: left;
  }
  .menu dt{
+text-align: center;
      display: table-cell;
      padding:0.4rem;
 }
@@ -46,13 +48,6 @@ section, summary, time, mark, audio, video {
      text-align: right;
      display: table-cell;
      padding:0.4rem;
- }
-
-.menu dd:after{
-     display: inline-block;
-     content: "";
-     width: 1em;
-     font-size: 0.7em;
  }
 
 .menu dd:last-child {
