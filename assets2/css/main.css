@@ -23,36 +23,27 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-.menu{
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1,125rem;
-    padding: 40px 0;
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.menu dl {
-    display: table;
-    width: 100%;
-    border: solid #e4e4e4;
-    border-width: 1px 0;
+
+.menu-item dt {
+  width: 30%;
+  text-align: left;
 }
-.menu dt{
-    display: table-cell;
-    padding:0.4rem;
+
+.menu-item dd {
+  width: 30%;
+  text-align: center;
 }
-.menu dd{
-    text-align: right;
-    display: table-cell;
-    padding:0.4rem;
+
+.menu-item dd:last-child {
+  width: 20%;
+  text-align: right;
 }
-.menu dd:after{
-    display: inline-block;
-    content: "";
-    width: 1em;
-    font-size: 0.7em;
-}
-.menu dd.from:after {
-    content: "〜";
-}
+
 
 
 article, aside, details, figcaption, figure,
