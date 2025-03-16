@@ -38,21 +38,21 @@ section, summary, time, mark, audio, video {
      border-width: 1px 0;
  }
  .menu dt{
-	width: 30%; 
+	width: 40%; 
 	text-align: left;
 	display: table-cell;
 	padding:0.4rem;
 }
 
 .menu dd{
-	width: 35%;
+	width: 40%;
 	text-align: center;
 	display: table-cell;
 	padding:0.4rem;
  }
 
 .menu dd:last-child {
-	width: 15%;
+	width: 20%;
 	text-align: right;
 	content: "";
 }
