@@ -30,7 +30,6 @@ body {
     color: white;
     text-align: left;
     padding: 20px;
-	line-height: 1;
 	-webkit-text-size-adjust: none;
 }
 
@@ -91,6 +90,17 @@ body {
 .menu-table td:nth-child(3) {
     text-align: right;
 }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
 
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
@@ -299,6 +309,36 @@ html, body {
 @media screen and (max-width: 480px) {
   #header {
     margin: 0 0 1em 0; } }
+
+/* List */
+ol {
+  list-style: decimal;
+  margin: 0 0 2em 0;
+  padding-left: 1.25em; }
+  ol li {
+    padding-left: 0.25em; }
+
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em; }
+  ul li {
+    padding-left: 0.5em; }
+
+/* Icons */
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0; }
+  ul.icons li {
+    display: inline-block;
+    padding: 0 1em 0 0; }
+    ul.icons li:last-child {
+      padding-right: 0; }
+    ul.icons li .icon:before {
+      font-size: 1.25em; }
+    ul.icons li a {
+      color: inherit; }
 
 
 /* Footer */
