@@ -28,7 +28,7 @@ section, summary, time, mark, audio, video {
 .menu{
      max-width: 700px;
      margin: 0 auto;
-     font-size: 1,125rem;
+     font-size: 1.125rem;
      padding: 10px 0;
  }
  .menu dl {
@@ -36,7 +36,6 @@ section, summary, time, mark, audio, video {
      width: 100%;
      border: solid #e4e4e4;
      border-width: 1px 0;
-	 text-align: left;
  }
  .menu dt{
 text-align: center;
@@ -51,7 +50,6 @@ text-align: center;
  }
 
 .menu dd:last-child {
-	display: inline-block;
      content: "";
 }
 
