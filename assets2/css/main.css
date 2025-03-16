@@ -41,6 +41,7 @@ section, summary, time, mark, audio, video {
      padding:0.4rem;
 	width: 30%;
   text-align: left;
+}
 
 .menu dd{
      text-align: right;
@@ -48,12 +49,14 @@ section, summary, time, mark, audio, video {
      padding:0.4rem;
 	  width: 30%;
   text-align: center;
+ }
 
 .menu dd:after{
      display: inline-block;
      content: "";
      width: 1em;
      font-size: 0.7em;
+ }
 
 .menu dd:last-child {
 	display: inline-block;
@@ -64,6 +67,7 @@ section, summary, time, mark, audio, video {
 
 .menu dd.from:after {
      content: "〜";
+ }
 
 
 
