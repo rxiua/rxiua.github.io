@@ -38,6 +38,45 @@ h2 {
     margin-bottom: 10px;
 }
 
+
+.menu{
+     max-width: 700px;
+     margin: 0 auto;
+     font-size: 14px;
+     padding: 10px 0;
+ }
+ .menu dl {
+     display: table;
+     width: 100%;
+     border: solid #e4e4e4;
+     border-width: 1px 0;
+ }
+ .menu dt{
+	width: 40%; 
+	text-align: left;
+	display: table-cell;
+	padding:0.4rem;
+}
+
+.menu dd{
+	width: 40%;
+	text-align: center;
+	display: table-cell;
+	padding:0.4rem;
+ }
+
+.menu dd:last-child {
+	width: 20%;
+	text-align: right;
+	content: "";
+}
+
+.menu dd.from:after {
+     content: "〜";
+ }
+
+
+
 .menu-table {
     width: 100%;
     border-collapse: collapse;
