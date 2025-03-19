@@ -70,7 +70,11 @@ body {
      content: "〜";
  }
 
-
+.information {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #ccc;
+}
 
 .info {
     font-size: 14px;
