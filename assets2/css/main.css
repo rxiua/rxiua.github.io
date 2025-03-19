@@ -366,7 +366,8 @@ h1 {
 
 h2 {
   font-size: 1.75em;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  margin-bottom: 0.5; }
 
 h3 {
   font-size: 1.35em;
